@@ -1,10 +1,15 @@
-<p style="color: green"><%= notice %></p>
+<h1>Showing selected article<h1>
 
-<%= render @article %>
+<h3>
+  Title: <%= @article.title%>
+</h3>
 
-<div>
-  <%= link_to "Edit this article", edit_article_path(@article) %> |
-  <%= link_to "Back to articles", articles_path %>
+<h3>
+  Description: <%= @article.description%>
+</h3>
 
-  <%= button_to "Destroy this article", @article, method: :delete %>
-</div>
+
+
+
+
+
