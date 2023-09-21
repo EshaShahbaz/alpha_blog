@@ -1,9 +1,34 @@
-<h1>New article</h1>
+<h1>Create an article</h1>
 
-<%= render "form", article: @article %>
 
+
+<%= form_for @article do |f| %>
+<p>
+<%= f.label :title %>
 <br>
+<%= f.text_field :title %>
+</p>
+<p>
+<%= f.label :description %>
+<br>
+<%= f.text_area :description %>
+</p>
+<p>
+<%= f.submit %>
+</p>
+<% end %>
 
+
+
+
+
+
+
+
+
+
+<%# <%= render "form", article: @article %>
+<%# <br>
 <div>
   <%= link_to "Back to articles", articles_path %>
-</div>
+<%# </div> %>
