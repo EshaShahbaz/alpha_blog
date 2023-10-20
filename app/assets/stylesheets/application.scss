@@ -1,1 +1,60 @@
+
 @import "bootstrap";
+
+.container-fluid{
+    background-color:#222;
+  }
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#logo:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.jumbotron{
+    text-align: center;
+}
+.jumbotron{
+    // background-image: url('https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH');
+    background-image: url('https://d32myzxfxyl12w.cloudfront.net/images/blog_images/be602627973000d99f6ba9a43aba117b82aa5e26.jpg?1649061518');
+    background-size: cover;
+    height: 450px;
+}
+.jumbotron h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+.jumbotron .btn{
+font-size: 1.7em;
+background-color:black;
+}
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+    color: #777;
+}
+footer a:hover{
+   color: #222;
+}
+footer small{
+    float: left;
+}
+footer ul{
+    float: right;
+    list-style: none;
+}
+footer ul li{
+    float: left;
+    margin-left: 15px;
+}
+
+
