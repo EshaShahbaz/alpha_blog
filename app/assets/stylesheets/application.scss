@@ -2,12 +2,12 @@
 @import "bootstrap";
 
 .container-fluid{
-    background-color:#222;
+    background-color:gray;
   }
 #logo {
     float: left;
     font-size: 1.7em;
-    color: #fff;
+    color:#fff;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
@@ -16,7 +16,7 @@
     color: #fff;
     text-decoration: none;
 }
-.jumbotron{
+.center{
     text-align: center;
 }
 .jumbotron{
@@ -26,7 +26,7 @@
     height: 450px;
 }
 .jumbotron h1{
-    color: #fff;
+    color:white;
     text-align: center;
     margin-bottom: 30px;
     letter-spacing: -1px;
