@@ -8,8 +8,8 @@ Rails.application.routes.draw do
 
   get 'pages/about'
   #root 'pages#about'
-
-
+  get 'signup', to: 'users#new'
+  post 'users', to: 'users#create'
 
 # namespace :admin do
 #   resources :pages
