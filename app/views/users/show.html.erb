@@ -13,3 +13,6 @@
 <h4 align="center"><%= @user.username %>'s articles</h4>
 
 <%= render  'articles/article', obj: @user.articles %>
+[<%= link_to 'Edit your profile', edit_user_path(current_user)%>]
+<br>
+[<%= link_to 'View your profile', user_path(current_user)%>]
